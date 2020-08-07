@@ -6,10 +6,12 @@
 #Places to modification :
 
 #src/storehash.js
+
 replace address with contract deployed address from remix or truffle.
 
 #src/App.js
 // const accounts = await web3.eth.getAccounts();
+
 const accounts = "0xe649EF2aBf9CA235CF96c71F57e3591B1A0d7528"
 
-# replace with accounts having balance.
+#replace with accounts having balance.
