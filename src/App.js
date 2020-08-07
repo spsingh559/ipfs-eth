@@ -103,6 +103,11 @@ class App extends Component {
       }); //storehash 
 
     }
+
+    //view ipfs documents
+    onClicViewIPFSDocument=()=>{
+      window.location.href="https://ipfs.io/ipfs/"+this.state.ipfsHash
+    }
   
     render() {
       
@@ -168,6 +173,9 @@ class App extends Component {
 
             <Button onClick = {this.onClickGetHash}> Get IPFS Hash </Button>
             <div>{this.state.getHashOfIPFS}</div>
+<br />
+            <Button onClick = {this.onClicViewIPFSDocument}> View IPFS Document </Button>
+            
         </Grid>
      </div>
       );
